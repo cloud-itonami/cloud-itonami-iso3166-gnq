@@ -1,0 +1,15 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "gnq.dish.pepesup", :name "Pepesup", :country "GNQ", :kind :dish, :summary "Spicy fish soup, the signature dish of Equatorial Guinea.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Equatorial_Guinea", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gnq.dish.bambucha", :name "Bambucha", :country "GNQ", :kind :dish, :summary "Equatoguinean dish of tender cassava leaves crushed and boiled with spices and juice of palm kernels, typically served with plantain or yucca.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Equatorial_Guinea", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gnq.dish.sopa-de-pescado-con-cacahuete", :name "Sopa de pescado con cacahuete", :country "GNQ", :kind :dish, :summary "Equatoguinean soup combining peanuts, fish, onions and tomato.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Equatorial_Guinea", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gnq.dish.akwadu", :name "Akwadu", :country "GNQ", :kind :dish, :summary "Equatoguinean dessert of baked bananas with coconut.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Equatorial_Guinea", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gnq.beverage.tope", :name "Topé", :country "GNQ", :kind :beverage, :summary "Palm wine, a traditional beverage of Equatorial Guinea.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Equatorial_Guinea", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gnq.beverage.malamba", :name "Malamba", :country "GNQ", :kind :beverage, :summary "Local alcoholic beverage of Equatorial Guinea.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Equatorial_Guinea", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gnq.festival.abira", :name "Abira", :country "GNQ", :kind :festival, :summary "Celebration in Equatorial Guinea believed to cleanse the community of evil.", :url "https://en.wikipedia.org/wiki/Culture_of_Equatorial_Guinea", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gnq.craft.mvet", :name "Mvet", :country "GNQ", :kind :craft, :summary "Stringed instrument played by the Fang people of Equatorial Guinea, resembling a cross between a zither and a harp, with up to fifteen strings.", :url "https://en.wikipedia.org/wiki/Culture_of_Equatorial_Guinea", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
