@@ -6,4 +6,30 @@
  :itonami.blueprint/governor :market-entry-compliance-governor
  :itonami.blueprint/robotics false
  :itonami.blueprint/required-technologies [:identity :forms :dmn :bpmn :audit-ledger]
- :itonami.blueprint/status :public-oss}
+ :itonami.blueprint/status :public-oss
+ :itonami.blueprint/maturity :implemented
+ :itonami.blueprint/implemented-slice
+ "MarketEntry-LLM Advisor ⊣ Market-Entry Compliance Governor, a REAL
+ compiled `kotoba-lang/langgraph` StateGraph (`:intake -> :advise ->
+ :govern -> :decide -+-> :commit / :request-approval -> :commit /
+ :hold`), append-only audit ledger. Six governor checks, in priority
+ order, ALL HARD violations a human approver cannot override:
+ spec-basis citation, evidence-checklist completeness, an
+ independent PAID-IN CAPITAL FLOOR VALIDATION against the Commercial
+ Registry (Registro de la Propiedad y Mercantil)'s own
+ World-Bank-documented XAF 1,000,000 SARL floor
+ (`:paid-in-capital-xaf`, the flagship check for this jurisdiction --
+ shape genuinely different from the fleet's usual
+ entity-missing/floor checks), independent engagement-fee recompute
+ (base + months x rate), tax-identification-number verification
+ (`:requires-tax-id?` / `:tax-id-verified?`), double-draft guard,
+ double-submit guard, plus a SOFT confidence-floor/actuation gate.
+ `:filing/draft` and `:filing/submit` (real portal actuation) never
+ auto-commit in any phase; `interrupt-before
+ #{:request-approval}` pauses escalated requests for real human
+ sign-off via a checkpointer, and BOTH `:commit` and `:hold` durably
+ append to the real audit ledger (`store/append-ledger!`). Store has
+ a `MemStore` and a `DatomicStore` (via `kotoba-lang/langchain-store`,
+ no hand-rolled EDN-blob codec), proven equivalent by a shared
+ store-contract test. 38 tests / 126 assertions green, clj-kondo 0
+ errors."}
