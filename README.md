@@ -2,8 +2,17 @@
 
 **GNQ**: Equatorial Guinea.
 
-- public procurement
-- Company Registry
+- No verifiable national public-procurement law/regulator/portal was
+  found this iteration (OHADA and CEMAC both independently confirmed to
+  have no procurement-harmonization instrument covering GNQ) -- this
+  vertical's market-entry mechanism is honestly PIVOTED to company/
+  business registration instead of procurement-bid filing
+- OHADA member state -- AUSCGIE company law applies directly (no
+  domestic transposition act); Commercial Registry (Registro de la
+  Propiedad y Mercantil) performs the RCCM-equivalent registration act,
+  tied by World Bank Doing Business 2020 to OHADA AUSCGIE Art. 261
+- World Bank Doing Business 2020 XAF 1,000,000 paid-in minimum-capital
+  floor (SARL) gate -- this vertical's flagship governor check
 
 AGPL-3.0-or-later.
 
