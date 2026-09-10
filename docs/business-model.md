@@ -8,7 +8,7 @@ Independent market-entry compliance for Equatorial Guinea.
   management directives do not cover procurement either -- both
   independently confirmed via `ohada.org`/`cemac.int`). This vertical's
   market-entry mechanism is therefore company/business registration, not
-  procurement-bid filing (see `src/marketentry/facts.cljc` for the full
+  procurement-bid filing (see `src/marketentry/facts.kotoba` for the full
   list of sources checked, including several dead/parked/blocked
   domains, disclosed honestly rather than glossed over).
 - OHADA member state -- company law is the Acte uniforme relatif au
